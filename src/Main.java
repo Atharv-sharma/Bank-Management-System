@@ -9,10 +9,6 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter Account number:");
-        int AccNo = sc.nextInt();
-        System.out.println("Enter Account holder's name");
         BankFactory bankFactory = new MMBankFactory();
 
         SavingAcc savingAcc = bankFactory.getNewSavingAcc(101, "John", 5000, true);
