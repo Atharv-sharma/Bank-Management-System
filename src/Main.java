@@ -4,7 +4,6 @@ import com.atharv.casestudy.framework.CurrentAcc;
 import com.atharv.casestudy.framework.MMBankFactory;
 import com.atharv.casestudy.framework.SavingAcc;
 
-import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
